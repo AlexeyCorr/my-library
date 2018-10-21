@@ -35,6 +35,28 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.button {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: inherit;
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+
+  display: inline-block;
+  max-width: 270px;
+  padding: 10px 30px;
+  background-color: #00897B;
+  border: none;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background-color: #26A69A;
+  }
+}
+
 .popup__wrapper {
   display: none;
   position: fixed;
